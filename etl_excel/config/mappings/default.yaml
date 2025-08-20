@@ -1,0 +1,9 @@
+column_synonyms:
+  id: [编号, 序号, id, ID]
+  name: [姓名, 名称, 用户名, name, user_name]
+  age: [年龄, 年紀, age]
+  country: [国家, 地区, country]
+  created_at: [创建时间, 建立时间, create_time, created_at]
+
+defaults:
+  country: CN

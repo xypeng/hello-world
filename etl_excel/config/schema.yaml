@@ -1,0 +1,15 @@
+table: my_table
+primary_key:
+  - id
+columns:
+  id:
+    type: int
+  name:
+    type: string
+  age:
+    type: int
+  country:
+    type: string
+    default: CN
+  created_at:
+    type: datetime

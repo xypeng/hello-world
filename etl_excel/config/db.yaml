@@ -1,0 +1,5 @@
+database_url: sqlite:////workspace/etl_excel/etl_excel.db
+echo_sql: false
+table: my_table
+mode: append  # append | replace | upsert
+chunksize: 1000
